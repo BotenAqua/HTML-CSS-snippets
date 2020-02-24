@@ -1,0 +1,17 @@
+.Rare{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 40px gold;
+  background: white;
+  animation: rare 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes rare {
+  from {
+    box-shadow: 0 0 2px gold, 0 0 4px gold, 0 0 8px gold;
+  }
+  to {
+    box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 40px gold;
+  }
+}
