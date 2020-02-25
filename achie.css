@@ -1,0 +1,47 @@
+body{
+  align-items: center;
+  display: flex;
+  background: black;
+  margin: 0 ;
+  padding: 0;
+}
+
+.achie{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  align: center;
+  height: 75px;
+  width: 80%;
+  overflow: hidden;
+  background: gray;
+  font-family: sans-serif;
+}
+
+.achie img{
+  height: 65px;
+  width: 65px;
+  margin: 5px 10px 5px 5px;
+  box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 40px gold;
+  animation: rare 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes rare {
+  from {
+    box-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold;
+  }
+  to {
+    box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 40px gold;
+  }
+}
+
+.achie .nazwa{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.achie .tresc{
+  color: black;
+  font-size: 15px;
+}
